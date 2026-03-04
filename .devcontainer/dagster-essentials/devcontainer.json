@@ -11,5 +11,7 @@
         "3000": {
             "label": "Dagster"
         }
-    }
+    },
+    // Grant vscode user access to the mounted source code
+    "postCreateCommand": "sudo chown -R vscode:vscode /workspaces",
 }
